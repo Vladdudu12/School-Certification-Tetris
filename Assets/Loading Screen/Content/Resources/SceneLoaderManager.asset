@@ -1,0 +1,41 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!114 &11400000
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 7decf71d60cb2fe438b4d9a0a160a517, type: 3}
+  m_Name: SceneLoaderManager
+  m_EditorClassIdentifier: 
+  List:
+    array:
+    - SceneName: Menu
+      SceneAsset: {fileID: 102900000, guid: 47bbde1a8038ba449accb0997c9c6902, type: 3}
+      DisplayName: Menu
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+    - SceneName: SampleScene
+      SceneAsset: {fileID: 102900000, guid: 2cda990e2423bbf4892e6590ba056729, type: 3}
+      DisplayName: SampleScene
+      Description: 
+      SkipType: 3
+      LoadingType: 0
+      FakeLoadingTime: 2
+      Backgrounds: []
+  TipList:
+    array:
+    - Create beutifull loading screens for improved your game
+    - Easy to use and implement
+    - remember that have 3 diferent styles for select.
+    - Create how much Tips as you want
+    - Improved the look of your game with awasome backgrounds.
+    - A good background sound increase the motivation of players.
+    - remember that have 3 diferent styles for select.
